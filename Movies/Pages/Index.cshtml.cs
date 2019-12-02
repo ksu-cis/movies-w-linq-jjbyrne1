@@ -24,7 +24,7 @@ namespace Movies.Pages
         public float? maxIMDB { get; set; }
 
         [BindProperty]
-        string sort { get; set; }
+        public string sort { get; set; }
 
         public void OnGet()
         {
